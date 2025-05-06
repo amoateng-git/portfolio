@@ -53,7 +53,7 @@ nav ul li a{
 nav ul li a:hover{
     background-color: #a3a8ae;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 .section{
 padding: 3rem 0;
@@ -71,6 +71,29 @@ border-bottom: 1px solid #eee;
     line-height: 1.8;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    
+}
+.intro{
+    text-align: center;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    gap: 1.5rem;
+    padding: 10px;
+    font-size: 30px;
+}
+.github i{
+    color: black;
+}
+.linkedin i{
+    color: rgb(64, 64, 191);
+}
+.icons a{
+    :hover{
+        text-decoration: underline;
+    }
+
 }
 .resume-download{
     text-align: center;
